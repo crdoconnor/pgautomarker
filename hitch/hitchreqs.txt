@@ -1,0 +1,26 @@
+argcomplete==1.9.4        # via hitchrun
+click==7.0                # via hitchrun, pip-tools
+colorama==0.4.1           # via hitchrun, hitchstory, prettystack
+commandlib==0.3.5         # via hitchrun
+hitchbuild==0.4.0         # via hitchbuildpg
+hitchbuildpg==0.3.0
+hitchrun==0.3.2
+hitchstory==0.12.0
+importlib-metadata==0.8   # via path.py
+jinja2==2.10              # via hitchstory, prettystack
+markupsafe==1.1.1         # via jinja2
+path.py==11.5.0           # via hitchbuild, hitchrun, hitchstory, pathquery, prettystack
+pathquery==0.3.0          # via hitchbuild, hitchbuildpg, hitchstory
+patool==1.12              # via hitchbuildpg
+peewee==3.8.2             # via hitchbuild
+pexpect==4.6.0            # via hitchbuildpg
+pip-tools==3.4.0          # via hitchrun
+prettystack==0.3.0        # via hitchrun, hitchstory
+ptyprocess==0.6.0         # via pexpect
+python-dateutil==2.8.0    # via strictyaml
+python-slugify==2.0.1     # via hitchbuild, hitchstory
+ruamel.yaml==0.15.88      # via strictyaml
+six==1.12.0               # via pip-tools, python-dateutil
+strictyaml==1.0.0         # via hitchstory
+unidecode==1.0.23         # via python-slugify
+zipp==0.3.3               # via importlib-metadata
